@@ -11,7 +11,7 @@
   
   .hero h1 {
     margin: 0;
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 700;
     color: var(--secondary);
   }
@@ -19,7 +19,7 @@
   .hero h2 {
     color: #444444;
     margin: 15px 0 0 0;
-    font-size: 26px;
+    font-size: 18px;
   }
   
   .hero .btn-get-started {
