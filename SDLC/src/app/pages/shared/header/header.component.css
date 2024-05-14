@@ -27,3 +27,7 @@
     font-size: 20px;
     margin-right: 5px;
    }
+.active:hover,.active:visited,.active:active{
+    background-color: transparent;
+    color: var(--secondary);
+   }
