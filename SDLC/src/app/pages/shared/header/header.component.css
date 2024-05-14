@@ -1,6 +1,4 @@
-nav{
-    background-color: #f9fafb;
-}
+
 .logo-image {
     max-height: 80px; 
     position: relative;
@@ -12,3 +10,20 @@ nav{
   .active{
     color: var(--secondary) !important;
   }
+
+  .header {
+    position: fixed;
+    width: 100%;
+     transition: all 0.5s;
+     z-index: 997;
+     padding:0;
+   }
+   .header.scrolled {
+     background: #f9fafb;
+     padding: 0;
+     box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+   }
+   a .fa{
+    font-size: 20px;
+    margin-right: 5px;
+   }
