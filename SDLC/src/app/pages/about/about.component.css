@@ -20,12 +20,16 @@
     font-size: 20px;
     font-weight: 500;
     color: var(--secondary);
+    text-indent: 30px;
+    text-align: justify;
   }
   
   .about p {
     margin: 15px 0 30px 0;
     line-height: 22px;
     font-size: 14px;
+    text-indent: 30px;
+    text-align: justify;
   }
   
   .about .btn-read-more {
@@ -128,4 +132,9 @@ text-decoration: none;
     margin: 0;
     color: var(--secondary);
     text-transform: uppercase;
+}
+.section-header p {
+
+  text-indent: 30px;
+  text-align: justify;
 }
