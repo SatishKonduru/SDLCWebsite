@@ -2,7 +2,7 @@ p{
     text-indent: 30px;
     text-align: justify;
 }
-.hotel-management {
+.products {
     padding: 130px 0;
     width: 100%;
     overflow-x: hidden;
@@ -59,7 +59,7 @@ p{
 
 
 .service-img-left{
-    margin: 100px 0;
+    margin-top: -20px;
 }
 .card-section .feature-box {
     padding: 15px 15px;
@@ -94,7 +94,7 @@ p{
     font-size: 14px;
     text-indent: 50px;
     text-align: justify;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .feature-box .box-content p{
     margin: 0;
@@ -126,7 +126,10 @@ p{
       transform: scale(1.1);
     }
   }
-  
+  .img-fluid{
+    width: 100%;
+    padding: 10px;
+  }
   /* Apply the animation on hover */
   .img-fluid.hover_animation:hover {
     animation: zoom 1s ease-in-out;

@@ -6,3 +6,10 @@
     font-family: "Poppins", sans-serif;
     /* background-color: #f4f6fc; */
 }
+
+.text-sdlc{
+    color: var(--primary);
+}
+.text-Masters{
+    color: var(--secondary);
+}

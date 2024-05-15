@@ -1,0 +1,179 @@
+p{
+    text-indent: 30px;
+    text-align: justify;
+}
+.products {
+    padding: 130px 0;
+    width: 100%;
+    overflow-x: hidden;
+    background: url(../../../assets/images/herosection/hero-bg.png) top center no-repeat;
+    background-size: cover;
+}
+
+.first-section h1 {
+    margin: 0;
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--secondary);
+}
+
+
+.first-section h2 {
+    color: #444444;
+    margin: 15px 0 0 0;
+    font-size: 18px;
+}
+
+.first-section .btn-get-started {
+    margin-top: 30px;
+    text-decoration: none;
+    line-height: 0;
+    padding: 15px 40px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: var(--primary);
+    box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+}
+
+.first-section .btn-get-started span {
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.first-section .btn-get-started i {
+    margin-left: 7px;
+    font-size: 20px;
+    transition: 0.6s;
+}
+
+.first-section .btn-get-started:hover i {
+    transform: translateX(10px);
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+}
+
+
+.service-img-left{
+    margin-top: -20px;
+}
+.card-section .feature-box {
+    padding: 15px 15px;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    transition: 0.3s;
+    height: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.card-section .feature-box h3 {
+    font-size: 16px;
+    color: #012970;
+    font-weight: 700;
+    margin: 0;
+}
+
+.card-section .feature-box i {
+    background: #ecf3ff;
+    color: var(--primary);
+    padding: 4px;
+    margin-right: 10px;
+    font-size: 24px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.feature-box .box-content {
+    font-size: 14px;
+    text-indent: 50px;
+    text-align: justify;
+    margin-top: 10px;
+}
+.feature-box .box-content p{
+    margin: 0;
+}
+.card-section .feature-box:hover i {
+    background: var(--secondary);
+    color: var(--primary);
+}
+.pt100{
+    padding-top: 100px ;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.whychoosesdlc{
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 600;
+    color: var(--secondary);
+    text-decoration: underline;
+}
+/* Define the zoom animation */
+@keyframes zoom {
+    0% {
+      transform: scale(1);
+    }
+  
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  .img-fluid{
+    width: 100%;
+    padding: 10px;
+  }
+  /* Apply the animation on hover */
+  .img-fluid.hover_animation:hover {
+    animation: zoom 1s ease-in-out;
+    -webkit-animation: zoom 1s ease-in-out;
+  }
+
+  
+  
+  @media (min-width: 1024px) {
+    .first-section {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .first-section {
+      height: auto;
+      padding: 120px 0 60px 0;
+    }
+  
+    .first-section .hero-img {
+      text-align: center;
+      margin-top: 80px;
+    }
+  
+    .first-section .hero-img img {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .first-section {
+      text-align: center;
+    }
+  
+    .first-section h1 {
+      font-size: 32px;
+    }
+  
+    .first-section h2 {
+      font-size: 24px;
+    }
+  
+    .first-section .hero-img img {
+      width: 100%;
+    }
+  }
