@@ -27,3 +27,14 @@
     font-size: 20px;
     margin-right: 5px;
    }
+
+   a.dropdown-item.active{
+    background-color: transparent;
+   }
+   .dropdown-menu li a.dropdown-item:hover,
+   .active:hover,
+   .active:visited,
+   .active:active{
+    background-color: transparent;
+    color: var(--secondary);
+   }
