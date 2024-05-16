@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { ViewportScroller } from '@angular/common';
+import { Component ,OnInit} from '@angular/core';
 
 @Component({
   selector: 'food-delivery-app',
@@ -7,6 +8,11 @@ import { Component } from '@angular/core';
   templateUrl: './food-delivery-app.component.html',
   styleUrl: './food-delivery-app.component.css'
 })
-export class FoodDeliveryAppComponent {
+export class FoodDeliveryAppComponent implements OnInit {
+  constructor(private viewportScroller: ViewportScroller) {}
+
+  ngOnInit() {
+    this.viewportScroller.scrollToPosition([0, 0]);
+  }
 
 }
