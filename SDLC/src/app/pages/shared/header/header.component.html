@@ -23,9 +23,9 @@
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" [routerLink]="'service-details'" routerLinkActive="active">   <i aria-hidden="true" class="fa fa-microchip"></i>  Services</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">    <i aria-hidden="true" class="fa fa-calendar"></i>   Pricing</a></li>
+              <li><a class="dropdown-item" [routerLink]="'price'" routerLinkActive="active">    <i aria-hidden="true" class="fa fa-calendar"></i>   Pricing</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">     <i aria-hidden="true" class="fa fa-user"></i>  Team</a></li>
+              <li><a class="dropdown-item" [routerLink]="'team'" routerLinkActive="active">     <i aria-hidden="true" class="fa fa-user"></i>  Team</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -54,7 +54,7 @@
             <a class="nav-link" href="#"><i aria-hidden="true" class="fa fa-university"></i>Career</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i aria-hidden="true" class="fa fa-address-book"></i>Contact</a>
+            <a class="nav-link" [routerLink]="'contact'" routerLinkActive="active"><i aria-hidden="true" class="fa fa-address-book"></i>Contact</a>
           </li>
         </ul>
       </div>
