@@ -13,11 +13,17 @@
     background: #fafbff;
     padding: 30px;
   }
-  
+  .whychoosesdlc{
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 600;
+    color: var(--secondary);
+    text-decoration: underline;
+}
   .contact .info-box i {
     font-size: 38px;
     line-height: 0;
-    color: #4154f1;
+    color: var(--primary);
   }
   
   .contact .info-box h3 {
@@ -103,7 +109,7 @@
   }
   
   .contact .php-email-form button[type=submit] {
-    background: #4154f1;
+    background: var(--secondary);
     border: 0;
     padding: 10px 30px;
     color: #fff;

@@ -30,7 +30,7 @@
     text-align: justify;
 }
 .service-img-left{
-    margin: 100px 0;
+    margin: 30px 0;
 }
 .about .feature-box {
     padding: 15px 15px;
@@ -70,7 +70,7 @@
 }
 
 .feature-box .box-content {
-    font-size: 18px;
+    font-size: 16px;
     text-indent: 50px;
     text-align: justify;
     line-height: 1.8;
