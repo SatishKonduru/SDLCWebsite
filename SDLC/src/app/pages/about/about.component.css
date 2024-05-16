@@ -1,140 +1,186 @@
 /*--------------------------------------------------------------
-# About
+# about
 --------------------------------------------------------------*/
-.about{
-    margin:100px 0;
+.about {
+    padding-top: 100px;
+    overflow: hidden;
+    background: url(../../../assets/images/herosection/hero-bg.png) top center no-repeat;
+    background-size: cover;
 }
-.about .content {
-    background-color: #f6f9ff;
-    padding: 40px;
-  }
-  
-  .about h3 {
-    font-size: 14px;
-    font-weight: 700;
-    color: var(--primary);
-    text-transform: uppercase;
-  }
-  
-  .about h2 {
-    font-size: 20px;
-    font-weight: 500;
-    color: var(--secondary);
-    text-indent: 30px;
-    text-align: justify;
-  }
-  
-  .about p {
-    margin: 15px 0 30px 0;
-    line-height: 22px;
-    font-size: 14px;
-    text-indent: 30px;
-    text-align: justify;
-  }
-  
-  .about .btn-read-more {
-    line-height: 0;
-    padding: 15px 40px;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: 0.5s;
-    color: #fff;
-    background: var(--primary);
-    box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
-  }
-  
-  .about .btn-read-more span {
-    font-family: "Nunito", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    letter-spacing: 1px;
-  }
-  
-  .about .btn-read-more i {
-    margin-left: 5px;
-    font-size: 18px;
-    transition: 0.3s;
-  }
-  
-  .about .btn-read-more:hover i {
-    transform: translateX(5px);
-  }
-  
-  /*--------------------------------------------------------------
-  # Values
-  --------------------------------------------------------------*/
-  .values .box {
-    padding: 30px;
-    box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+.fs-100{
+    font-size: 100px;
+}
+.bi-check::before {
+    content: "\f26e";
+}
+.aboutbox i{
+    position: absolute;
+    top: 15px;
+}
+.section-header h3 {
     text-align: center;
+    text-decoration: underline;
+    color: var(--secondary);
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.section-header p {
+    text-indent: 50px;
+    text-align: justify;
+}
+.service-img-left{
+    margin: 100px 0;
+}
+.about .feature-box {
+    padding: 15px 15px;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
     transition: 0.3s;
     height: 100%;
-  }
-  
-  .values .box img {
-    padding: 30px 50px;
-    transition: 0.5s;
-    transform: scale(1.1);
-  }
-  
-  .values .box h3 {
-    font-size: 24px;
-    color: var(--secondary);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.about .feature-box h3 {
+    font-size: 20px;
+    color: #012970;
     font-weight: 700;
-    margin-bottom: 18px;
-  }
-  
-  .values .box:hover {
-    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  }
-  
-  .values .box:hover img {
-    transform: scale(1);
-  }
-  .values .box ul{
- 
-    list-style: none;
-    padding: 0;
     margin: 0;
-  }
-  .values .box ul a{
-text-decoration: none;
+}
+
+.about .feature-box i {
+    background: #ecf3ff;
     color: var(--primary);
-    transition: 0.3s;
-    display: inline-block;
-    line-height: 1;
-  }
-
-
-
-  .values .box ul li{
-    padding-bottom: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .values .box ul li i{
-    padding-right: 2px;
-    color: #d0d4fc;
-    font-size: 12px;
-    line-height: 0;
-  }
-  .section-header {
-    
-    padding-bottom: 40px;
+    padding: 5px;
+    margin-right: 12px;
+    font-size: 20px;
+    border-radius: 4px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
 }
 
-.section-header h2 {
-  text-align: center;
-    font-size: 12px;
-    letter-spacing: 1px;
-    font-weight: 700;
+.feature-box .box-content {
+    font-size: 18px;
+    text-indent: 50px;
+    text-align: justify;
+    line-height: 1.8;
+}
+.feature-box .box-content p{
     margin: 0;
-    color: var(--secondary);
-    text-transform: uppercase;
 }
-.section-header p {
+.about .feature-box:hover i {
+    background: var(--secondary);
+    color: var(--primary);
+}
+.whychoosesdlc{
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 600;
+    color: var(--secondary);
+    text-decoration: underline;
+}
 
-  text-indent: 30px;
-  text-align: justify;
+
+
+.about .feture-tabs {
+    margin-top: 120px;
+}
+
+.about .feture-tabs h3 {
+    color: #012970;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .about .feture-tabs h3 {
+        font-size: 28px;
+    }
+}
+
+.about .feture-tabs .nav-pills {
+    border-bottom: 1px solid #eee;
+}
+
+.about .feture-tabs .nav-link {
+    background: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    color: #012970;
+    padding: 12px 0;
+    margin-right: 25px;
+    margin-bottom: -2px;
+    border-radius: 0;
+}
+
+.about .feture-tabs .nav-link.active {
+    color: #4154f1;
+    border-bottom: 3px solid #4154f1;
+}
+
+.about .feture-tabs .tab-content h4 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 700;
+    color: #012970;
+}
+
+.about .feture-tabs .tab-content i {
+    font-size: 24px;
+    line-height: 0;
+    margin-right: 8px;
+    color: #4154f1;
+}
+
+.about .feature-icons {
+    margin-top: 120px;
+}
+
+.about .feature-icons h3 {
+    color: #012970;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .about .feature-icons h3 {
+        font-size: 28px;
+    }
+}
+
+.about .feature-icons .content .icon-box {
+    display: flex;
+}
+
+.about .feature-icons .content .icon-box h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    color: #012970;
+}
+
+.about .feature-icons .content .icon-box i {
+    font-size: 44px;
+    line-height: 44px;
+    color: #0245bc;
+    margin-right: 15px;
+}
+
+.about .feature-icons .content .icon-box p {
+    font-size: 15px;
+    color: #848484;
 }

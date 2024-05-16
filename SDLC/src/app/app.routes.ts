@@ -6,6 +6,7 @@ import { HospitalManagementAppComponent } from './pages/hospital-management-app/
 import { FoodDeliveryAppComponent } from './pages/food-delivery-app/food-delivery-app.component';
 import { HotelManagementAppComponent } from './pages/hotel-management-app/hotel-management-app.component';
 import { BillingSoftwareAppComponent } from './pages/billing-software-app/billing-software-app.component';
+import { AboutComponent } from './pages/about/about.component';
 
 export const routes: Routes = [
     {
@@ -16,6 +17,10 @@ export const routes: Routes = [
     {
         path: 'home',
         component: HomeComponent
+    },
+    {
+        path: 'about',
+        component: AboutComponent
     },
     {
         path: 'service-details',

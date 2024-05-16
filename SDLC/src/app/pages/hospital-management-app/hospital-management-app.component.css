@@ -5,7 +5,7 @@ p{
 .products {
     padding: 130px 0;
     width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
     background: url(../../../assets/images/herosection/hero-bg.png) top center no-repeat;
     background-size: cover;
 }
