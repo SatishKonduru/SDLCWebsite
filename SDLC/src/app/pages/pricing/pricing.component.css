@@ -10,6 +10,7 @@
     background: url(../../../assets/images/herosection/hero-bg.png) top center no-repeat;
     background-size: cover;
 }
+
 .pricing .box {
     padding: 40px 20px;
     background: #fff;
@@ -28,7 +29,6 @@
   
   .pricing h3 {
     font-weight: 700;
-    font-size: 18px;
     margin-bottom: 15px;
   }
   
@@ -78,19 +78,20 @@
     display: inline-block;
     padding: 8px 40px 10px 40px;
     border-radius: 50px;
-    color: #4154f1;
+    color: var(--primary);
     transition: none;
     font-size: 16px;
     font-weight: 400;
     font-family: "Nunito", sans-serif;
     font-weight: 600;
     transition: 0.3s;
-    border: 1px solid #4154f1;
+    border: 1px solid var(--primary);
+    text-decoration: none;
   }
   
   .pricing .btn-buy:hover {
-    background: #4154f1;
-    color: #fff;
+    background: var(--primary);
+    color: var(--secondary);
   }
   
   .pricing .featured {
@@ -105,4 +106,10 @@
     background: #4154f1;
     color: #fff;
   }
-  
+  .whychoosesdlc{
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 600;
+    color: var(--secondary);
+    text-decoration: underline;
+  }
