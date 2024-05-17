@@ -10,6 +10,11 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { PricingComponent } from './pages/pricing/pricing.component';
 import { TeamComponent } from './pages/team/team.component';
+import { WatsappChatBotComponent } from './pages/watsapp-chat-bot/watsapp-chat-bot.component';
+import { RentalComponent } from './pages/rental/rental.component';
+import { ECommerceComponent } from './pages/e-commerce/e-commerce.component';
+import { BookingManagementComponent } from './pages/booking-management/booking-management.component';
+import { CareerComponent } from './pages/career/career.component';
 
 export const routes: Routes = [
     {
@@ -24,6 +29,10 @@ export const routes: Routes = [
     {
         path: 'team',
         component: TeamComponent
+    },
+    {
+        path: 'career',
+        component: CareerComponent
     },
     {
         path: 'price',
@@ -57,7 +66,25 @@ export const routes: Routes = [
         path: 'billing-software-app',
         component: BillingSoftwareAppComponent
     },
-    
+    {
+        path: 'watsapp-chatbot-app',
+        component: WatsappChatBotComponent
+    },
+    {
+        path: 'rental-app',
+        component: RentalComponent
+    },
+    {
+        path: 'e-commerce',
+        component: ECommerceComponent
+    },
+    {
+        path: 'booking-management',
+        component: BookingManagementComponent
+    },
+
+
+
     {
         path: '**',
         component: PageNotFoundComponent
